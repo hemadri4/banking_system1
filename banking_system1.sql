@@ -1,7 +1,6 @@
 CREATE DATABASE IF NOT EXISTS BankingSystem;
 USE BankingSystem;
 
--- 1. Branches Table
 CREATE TABLE Branches (
     branch_id INT PRIMARY KEY,
     branch_name VARCHAR(100),
